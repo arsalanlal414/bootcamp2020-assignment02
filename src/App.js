@@ -4,7 +4,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Hello, I am using Reactjs</h1>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Hello world I am using Reactjs App</h1>
+      </header>
     </div>
   );
 }
